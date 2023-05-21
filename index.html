@@ -1,0 +1,21 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <header>
+            <p class="firstName">Generate a</p>
+            <p class="secondName">Random Password</p>
+            <p class="subtitle">Never use an insecure password again</p>
+                
+            </header>
+        <button onclick="randomButton()">Random Password</button>
+        <input id="pasLength" type="number" placeholder="Password length..." oninput="pasGenerator()">
+        <hr>
+        <input class="passInputs" id="pasRandom1" onkeydown="return false">
+        <input class="passInputs" id="pasRandom2" onkeydown="return false">
+        <input class="passInputs" id="pasRandom3" onkeydown="return false">
+        <input class="passInputs" id="pasRandom4" onkeydown="return false">
+    </body>
+</html>
